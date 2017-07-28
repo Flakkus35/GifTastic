@@ -1,0 +1,78 @@
+#buttons {
+	width: 100%;
+	height: 25%;
+	border-bottom: 10px groove;
+}
+
+form {
+	margin-top: 20px;
+}
+
+p {
+	width: 200px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+#gifs {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+#newbutton {
+	float: right;
+	width: 20%;
+	height: 200px;
+	border: 10px groove;
+	border-radius: 10px;
+}
+
+label {
+	font-family: 'Acme', sans-serif;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#add-button, .gifbutton {
+	background: white;
+	font-family: 'Bellefair', serif;
+	font-size: 20px;
+}
+
+#add-button {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 50px;
+}
+
+#add-button:hover, .gifbutton:hover {
+	background: #a5a5a5;
+	color: white;
+}
+
+#button-input {
+	display: block;
+	font-family: 'Bellefair', serif;
+	margin: auto;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.gifImage {
+	margin: 10px;
+}
+
+.gifbutton {
+	margin: 2px;
+	padding: 10px;
+}
+
+.gifDiv {
+	float: left;
+}
